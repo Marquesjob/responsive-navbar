@@ -1,0 +1,15 @@
+@media only screen and (max-width: 576px) {
+    .nav__enter__link {
+        display: none !important;
+    }
+
+    .nav__items__links {
+        display: none !important;
+    }
+
+    .nav__menu__icon {
+        display: flex !important;
+        width: 30px;
+        height: 30px;
+    }
+}
