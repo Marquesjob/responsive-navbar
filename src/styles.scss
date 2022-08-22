@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+    --color-navbar-page: rgb(34, 38, 65) ;
+    --color-background-page: rgb(50, 55, 88) ;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-background-page);
+}
+
+.target__link {
+    color: white;
+    border-bottom: 3px solid rgb(255, 166, 0);
+}
+
